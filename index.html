@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <h1 id="hdn">Stone-Paper-Scissor Game</h1>
+        <h3>Made by Sayan Dhara</h3>
+        <div class="outer-div">
+
+            <div class="inner-div" id="p1">
+                <h2>Player 1</h2>
+                <h3>Choose Your Move</h3>
+                <div id="btn">
+                    <button class="btn btn1" id="stn">Stone</button>
+                    <button class=" btn btn1" id="ppr">Paper</button>
+                    <button class="btn btn1" id="scr">Scissor</button>
+                </div>
+                <div class="image" id="user"></div>
+            </div>
+            <div id="div">
+                <br><br><br><br><br><br>
+                <h3 id="win-msg" style="font-size:x-large"></h3>
+                <h3 id="win-sms" style="font-size:x-large"></h3>
+                <h3 id="userwin" style="font-size:40px"></h3>
+            </div>    
+            <div class="inner-div" id="p2">
+                <h2>Computer</h2>
+                <h3>Computer's Move</h3>
+                <div id="btn">
+                    <button class="btn">Stone</button>
+                    <button class="btn">Paper</button>
+                    <button class="btn">Scissor</button>
+                </div>
+                <div class="image" id="comp"></div>
+            </div>
+        </div>
+            <div id="score">
+                <div class="user">
+                    <h1 id="user-score">0</h1>
+                    <h3>Your Score</h3>
+                </div>
+                <div class="comp">
+                    <h1 id="comp-score">0</h1>
+                    <h3>Comp Score</h3>
+                </div>
+            </div>  
+            <br>
+            <button id="new-game">New Game</button>   
+            <h3>Press the New Game button to start a new session...</h3>     
+    </main>
+    <script src="/xyz.js"></script>
+</body>
+</html>
