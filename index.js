@@ -28,18 +28,18 @@ let compImage = document.querySelector("#comp");
 
 function showChoice(x,y){
     if(x === "Stone"){
-        userImage.style.backgroundImage = "url('/images/rock.png')";    }
+        userImage.style.backgroundImage = "url('/rock.png')";    }
     else if(x === "Paper"){
-        userImage.style.backgroundImage = "url('/images/paper.png')";    }
+        userImage.style.backgroundImage = "url('/paper.png')";    }
     else{
-        userImage.style.backgroundImage = "url('/images/scissors.png')";    }
+        userImage.style.backgroundImage = "url('/scissors.png')";    }
 
     if(y === "Stone"){
-        compImage.style.backgroundImage = "url('/images/rock.png')";    }
+        compImage.style.backgroundImage = "url('/rock.png')";    }
     else if(y === "Paper"){
-        compImage.style.backgroundImage = "url('/images/paper.png')";    }
+        compImage.style.backgroundImage = "url('/paper.png')";    }
     else{
-        compImage.style.backgroundImage = "url('/images/scissors.png')";    }
+        compImage.style.backgroundImage = "url('/scissors.png')";    }
 }
 
 
